@@ -113,7 +113,7 @@ tasks:
       - echo 'baz'
 ```
 
-
+&nbsp;
 
 ## 使用大写变量名称
 
@@ -163,7 +163,7 @@ tasks:
       - echo '{{.MESSAGE}}'
 ```
 
-
+&nbsp;
 
 这个约定也被大多数人用于 Go 模板。
 
@@ -229,3 +229,5 @@ tasks:
     cmds:
       - ./scripts/my_complex_script.sh
 ```
+
+&nbsp;
