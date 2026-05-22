@@ -1,0 +1,414 @@
+{
+  "version": "1.0",
+  "data": [
+    {
+      "fileName": "CI CD 工具",
+      "filePath": "/CI CD 工具.md",
+      "fileType": "markdown",
+      "fileSuffix": "md",
+      "lastModifyTime": "2026-05-13 15:54:08"
+    },
+    {
+      "fileName": "JSON代码风格指南",
+      "fileType": "markdown",
+      "filePath": "/JSON代码风格指南.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 18:55:07",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "LICENSE",
+      "fileType": "folder",
+      "filePath": "/LICENSE",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "YAML代码风格指南",
+      "fileType": "markdown",
+      "filePath": "/YAML代码风格指南.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 18:55:09",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "互联网术语 ",
+      "fileType": "markdown",
+      "filePath": "/互联网术语 .md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 19:30:22",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "你可能不需要 lodash",
+      "fileType": "markdown",
+      "filePath": "/你可能不需要 lodash.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 18:59:01",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "入职亚马逊的学习经历",
+      "fileType": "markdown",
+      "filePath": "/入职亚马逊的学习经历.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "实战笔记",
+      "fileType": "folder",
+      "filePath": "/实战笔记",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "1-为网站添加 https 证书",
+          "fileType": "markdown",
+          "filePath": "/实战笔记/1-为网站添加 https 证书.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2026-04-28 14:40:54",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "2-工作流自动部署 github page",
+          "fileType": "markdown",
+          "filePath": "/实战笔记/2-工作流自动部署 github page.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2026-04-28 14:41:01",
+          "createTime": "2025-09-14 13:59:00"
+        }
+      ]
+    },
+    {
+      "fileName": "掘金",
+      "fileType": "folder",
+      "filePath": "/掘金",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "1-前端环境搭建",
+          "fileType": "markdown",
+          "filePath": "/掘金/1-前端环境搭建.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "2-git功能查找",
+          "fileType": "markdown",
+          "filePath": "/掘金/2-git功能查找.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "3-前端教程锦集",
+          "fileType": "markdown",
+          "filePath": "/掘金/3-前端教程锦集.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "4-TypeScript声明",
+          "fileType": "markdown",
+          "filePath": "/掘金/4-TypeScript声明.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "5-走进前端二进制",
+          "fileType": "markdown",
+          "filePath": "/掘金/5-走进前端二进制.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "6-docker 原来如此",
+          "fileType": "markdown",
+          "filePath": "/掘金/6-docker 原来如此.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        }
+      ]
+    },
+    {
+      "fileName": "文件系统架构",
+      "fileType": "unknown",
+      "filePath": "/文件系统架构.json",
+      "fileSuffix": "json",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 19:30:20",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "清单",
+      "fileType": "folder",
+      "filePath": "/清单",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "清单 - 兼容表格",
+          "fileType": "markdown",
+          "filePath": "/清单/清单 - 兼容表格.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2026-04-28 14:38:59",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "清单 - 团队能力",
+          "fileType": "markdown",
+          "filePath": "/清单/清单 - 团队能力.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "清单 - 性能优化",
+          "fileType": "markdown",
+          "filePath": "/清单/清单 - 性能优化.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "清单 - 项目持续优化",
+          "fileType": "markdown",
+          "filePath": "/清单/清单 - 项目持续优化.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        }
+      ]
+    },
+    {
+      "fileName": "清单 - 前端工程师的自我修养",
+      "fileType": "markdown",
+      "filePath": "/清单 - 前端工程师的自我修养.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-05-07 19:13:11",
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "翻译",
+      "fileType": "folder",
+      "filePath": "/翻译",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2025-09-14 13:59:00",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "1-客户想要的不是她们所说的 - 原文",
+          "fileType": "markdown",
+          "filePath": "/翻译/1-客户想要的不是她们所说的 - 原文.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "1-客户想要的不是她们所说的",
+          "fileType": "markdown",
+          "filePath": "/翻译/1-客户想要的不是她们所说的.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "2-你需要留意代码-原文",
+          "fileType": "markdown",
+          "filePath": "/翻译/2-你需要留意代码-原文.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "2-你需要留意代码",
+          "fileType": "markdown",
+          "filePath": "/翻译/2-你需要留意代码.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "3-Write Tests for People",
+          "fileType": "markdown",
+          "filePath": "/翻译/3-Write Tests for People.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "3-编写测试",
+          "fileType": "markdown",
+          "filePath": "/翻译/3-编写测试.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "INFP",
+          "fileType": "folder",
+          "filePath": "/翻译/INFP",
+          "fileSuffix": "",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00",
+          "children": [
+            {
+              "fileName": "INFP-调停者 - 原文",
+              "fileType": "markdown",
+              "filePath": "/翻译/INFP/INFP-调停者 - 原文.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": "2025-09-14 13:59:00",
+              "createTime": "2025-09-14 13:59:00"
+            },
+            {
+              "fileName": "INFP-调停者",
+              "fileType": "markdown",
+              "filePath": "/翻译/INFP/INFP-调停者.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": "2025-09-14 13:59:00",
+              "createTime": "2025-09-14 13:59:00"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "fileName": "资源",
+      "fileType": "folder",
+      "filePath": "/资源",
+      "fileSuffix": "",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": "2026-04-28 14:41:25",
+      "createTime": "2025-09-14 13:59:00",
+      "children": [
+        {
+          "fileName": "资源 - Python 包",
+          "fileType": "markdown",
+          "filePath": "/资源/资源 - Python 包.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "资源 - 其它",
+          "fileType": "markdown",
+          "filePath": "/资源/资源 - 其它.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "资源 - 前端包",
+          "fileType": "markdown",
+          "filePath": "/资源/资源 - 前端包.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2026-05-07 14:33:48",
+          "createTime": "2025-09-14 13:59:00"
+        },
+        {
+          "fileName": "资源 - 项目",
+          "fileType": "markdown",
+          "filePath": "/资源/资源 - 项目.md",
+          "fileSuffix": "md",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00"
+        }
+      ],
+      "fileScheme": "red"
+    },
+    {
+      "fileName": "CI-CD实践",
+      "filePath": "/CI-CD实践.md",
+      "fileType": "markdown",
+      "fileSuffix": "md",
+      "lastModifyTime": "2026-05-13 15:54:52"
+    }
+  ],
+  "fileType": "config",
+  "configType": "menu-config"
+}
