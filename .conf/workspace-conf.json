@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "fileType": "config",
+  "configType": "global-config",
+  "data": {
+    "appVersion": "",
+    "fullScreen": false,
+    "sideBarWidth": false,
+    "onlyEditMode": false,
+    "theme": "dark",
+    "offline": false,
+    "errorReport": true,
+    "language": "zh",
+    "autoUpdate": false,
+    "editor": {
+      "autoSave": false,
+      "theme": "",
+      "sidebarType": "",
+      "sideBarWidth": 0,
+      "lineFeed": "LF",
+      "imgStoreStrategy": "assets",
+      "imgStoreRemote": ""
+    },
+    "markdown": {
+      "indent": 2,
+      "showCatalog": false,
+      "firstLineIndent": 2,
+      "enableMermaid": false,
+      "enableFlow": false
+    },
+    "experiment": {
+      "spellCheck": false,
+      "exportEnable": false
+    },
+    "todo": {
+      "smartList": false,
+      "defaultPriority": "both-have",
+      "defaultTime": "1-day"
+    },
+    "fontsize": 0,
+    "fontFamily": "",
+    "chat": {
+      "modelEnv": "ollama",
+      "ollama": {
+        "locate": "remote",
+        "using": "",
+        "port": "",
+        "hostname": ""
+      },
+      "deepseek": {
+        "key": ""
+      }
+    }
+  }
+}
