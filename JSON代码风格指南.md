@@ -95,8 +95,8 @@ JSON中的数据元素应以*扁平化*方式呈现。不能为了方便而将�
 
 - 属性名应该是具有定义语义的有意义的名称。
 - 属性名必须是驼峰式的，ASCII码字符串。
-- 首字符必须是字母，下划线(*_*)或美元符号(*$*)。
-- 随后的其他字符可以是字母，数字，下划线(*_*)或美元符号(*$*)。
+- 首字符必须是字母，下划线(*\_*)或美元符号(*$*)。
+- 随后的其他字符可以是字母，数字，下划线(*\_*)或美元符号(*$*)。
 - 应该避免使用Javascript中的保留关键字(下文附有Javascript保留字清单)
 
 这些准则反映JavaScript标识符命名的指导方针。使JavaScript的客户端可以使用点符号来访问属性。(例如, `result.thisIsAnInstanceVariable`).
@@ -565,7 +565,7 @@ JSON对象的*data*属性可能包含以下属性。
 父节点: data
 ```
 
-*kind*属性是对某个特定的对象存储何种类型的信息的指南。可以把它放在*data*层次，或*items*的层次，或其它任何有助于区分各类对象的对象中。如果*kind*对象被提供，它应该是对象的第一个属性（详见下面的_属性顺序_部分）。
+*kind*属性是对某个特定的对象存储何种类型的信息的指南。可以把它放在*data*层次，或*items*的层次，或其它任何有助于区分各类对象的对象中。如果*kind*对象被提供，它应该是对象的第一个属性（详见下面的\_属性顺序\_部分）。
 
 示例：
 
@@ -607,7 +607,7 @@ JSON对象的*data*属性可能包含以下属性。
 父节点: data
 ```
 
-响应时提供etag。关于GData APIs中的ETags详情可以在这里找到：http://code.google.com/apis/gdata/docs/2.0/reference.html#ResourceVersioning
+响应时提供etag。关于GData APIs中的ETags详情可以在这里找到：[http://code.google.com/apis/gdata/docs/2.0/reference.html#ResourceVersioning](http://code.google.com/apis/gdata/docs/2.0/reference.html#ResourceVersioning)
 
 示例：
 
@@ -697,7 +697,7 @@ JSON对象的*data*属性可能包含以下属性。
 父节点: data
 ```
 
-属性名*items*被保留用作表示一组条目(例如,Picasa中的图片，YouTube中的视频)。这种结构的目的是给与当前结果相关的集合提供一个标准位置。例如，知道页面上的*items*是数组，JSON输出便可能插入一个通用的分页系统。如果*items*存在，它应该是*data*对象的最后一个属性。（详见下面的_属性顺序_部分）。
+属性名*items*被保留用作表示一组条目(例如,Picasa中的图片，YouTube中的视频)。这种结构的目的是给与当前结果相关的集合提供一个标准位置。例如，知道页面上的*items*是数组，JSON输出便可能插入一个通用的分页系统。如果*items*存在，它应该是*data*对象的最后一个属性。（详见下面的\_属性顺序\_部分）。
 
 示例：
 
@@ -720,8 +720,8 @@ JSON对象的*data*属性可能包含以下属性。
 下面的分页数据允许各种风格的分页，包括：
 
 - 上一页/下一页 - 允许用户在列表中前进和后退，一次一页。*nextLink* 和*previousLink*属性 (下面的"链接保留属性名"部分有描述) 用于这种风格的分页。
-- 基于索引的分页 - 允许用户直接跳到条目列表的某个条目位置。例如，要从第200个条目开始载入10个新的条目，开发者可以给用户提供一个URL的查询字符串*?startIndex=200*。
-- 基于页面的分页 - 允许用户直接跳到条目内的具体页。这跟基于索引的分页很类似,但节省了开发者额外的步骤，不需再为新一页的条目计算条目索引。例如，开发人员可以直接跳到第20页，而不是跳到第200条条目。基于页面分页的网址，可以使用查询字符串*?page=1*或*?page=20*。*pageIndex*和 *totalPages* 属性用作这种风格的分页.
+- 基于索引的分页 - 允许用户直接跳到条目列表的某个条目位置。例如，要从第200个条目开始载入10个新的条目，开发者可以给用户提供一个URL的查询字符串\*?startIndex=200\*。
+- 基于页面的分页 - 允许用户直接跳到条目内的具体页。这跟基于索引的分页很类似,但节省了开发者额外的步骤，不需再为新一页的条目计算条目索引。例如，开发人员可以直接跳到第20页，而不是跳到第200条条目。基于页面分页的网址，可以使用查询字符串\*?page=1*或*?page=20\*。*pageIndex*和 *totalPages* 属性用作这种风格的分页.
 
 在这份指南的最后可以找到如何使用这些属性来实现分页的例子。
 
@@ -814,7 +814,7 @@ data.items中第一个条目的索引。为了一致，*startIndex*应从1开始
 父节点: data
 ```
 
-URL模板指出用户可以如何计算随后的分页链接。URL模板中也包含一些保留变量名：表示要载入的条目的*{index}*，和要载入的页面的*{pageIndex}*。
+URL模板指出用户可以如何计算随后的分页链接。URL模板中也包含一些保留变量名：表示要载入的条目的\*{index}*，和要载入的页面的*{pageIndex}\*。
 
 示例：
 
@@ -868,7 +868,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 }
 ```
 
-## 
+
 
 ## 用于链接的保留属性名
 
@@ -962,7 +962,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 }
 ```
 
-\##错误对象中的保留属性名## JSON对象的*error*属性应包含以下属性。
+##错误对象中的保留属性名## JSON对象的*error*属性应包含以下属性。
 
 
 
@@ -1023,7 +1023,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 { "error": { "errors": [] } }	
 ```
 
-### error.errors[].domain
+### error.errors\[\].domain
 
 ```
 属性值类型: 字符串(string)
@@ -1044,7 +1044,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 
 
 
-### error.errors[].reason
+### error.errors\[\].reason
 
 ```
 属性值类型: 字符串(string)
@@ -1065,7 +1065,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 
 
 
-### error.errors[].message
+### error.errors\[\].message
 
 ```
 属性值类型: 字符串(string)
@@ -1088,7 +1088,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 
 
 
-### error.errors[].location
+### error.errors\[\].location
 
 ```
 属性值类型: 字符串(string)
@@ -1109,7 +1109,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 
 
 
-### error.errors[].locationType
+### error.errors\[\].locationType
 
 ```
 属性值类型: 字符串(string)
@@ -1130,7 +1130,7 @@ URL模板指出用户可以如何计算随后的分页链接。URL模板中也�
 
 
 
-### error.errors[].extendedHelp
+### error.errors\[\].extendedHelp
 
 ```
 属性值类型: 字符串(string)
@@ -1151,7 +1151,7 @@ help text的URI，使错误更易于理解。
 
 
 
-### error.errors[].sendReport
+### error.errors\[\].sendReport
 
 ```
 属性值类型: 字符串(string)
@@ -1182,7 +1182,7 @@ report form的URI，服务用它来收集错误状态的数据。该URL会预先
 
 ### Items属性
 
-**_items_应该是_data_对象的最后一个属性**
+**\_items\_应该是\_data\_对象的最后一个属性**
 
 这使得阅读每一个具体条目前前已读所有的集合属性。在有很多条目的情况下，这样就避免了开发人员只需要从数据的字段时不必要的解析这些条目。
 
@@ -1213,7 +1213,7 @@ report form的URI，服务用它来收集错误状态的数据。该URL会预先
 
 ### YouTube JSON API
 
-这是YouTube JSON API响应对象的示例。你可以从中学到更多关于YouTube JSON API的内容：http://code.google.com/apis/youtube/2.0/developers_guide_jsonc.html
+这是YouTube JSON API响应对象的示例。你可以从中学到更多关于YouTube JSON API的内容：[http://code.google.com/apis/youtube/2.0/developers\_guide\_jsonc.html](http://code.google.com/apis/youtube/2.0/developers_guide_jsonc.html)
 
 ```
 {
@@ -1272,9 +1272,9 @@ report form的URI，服务用它来收集错误状态的数据。该URL会预先
 
 这个示例仅用作说明。下面的API实际上并不存在。
 
-这是Google搜索结果页面的示例： [![image](https://camo.githubusercontent.com/ab72a2779f414bbf3761f0e3e1e708a18ae22fd19c5ec7c3c81f8b7eb2c72f24/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30312e706e67)](https://camo.githubusercontent.com/ab72a2779f414bbf3761f0e3e1e708a18ae22fd19c5ec7c3c81f8b7eb2c72f24/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30312e706e67)
+这是Google搜索结果页面的示例： ![image](https://camo.githubusercontent.com/ab72a2779f414bbf3761f0e3e1e708a18ae22fd19c5ec7c3c81f8b7eb2c72f24/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30312e706e67)
 
-[![image](https://camo.githubusercontent.com/2c240bd507d07583b54a8188a69e68346ac999871e13eac4c734068036169ebf/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30322e706e67)](https://camo.githubusercontent.com/2c240bd507d07583b54a8188a69e68346ac999871e13eac4c734068036169ebf/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30322e706e67)
+![image](https://camo.githubusercontent.com/2c240bd507d07583b54a8188a69e68346ac999871e13eac4c734068036169ebf/687474703a2f2f676f6f676c652d7374796c6567756964652e676f6f676c65636f64652e636f6d2f73766e2f7472756e6b2f6a736f6e637374796c6567756964655f6578616d706c655f30322e706e67)
 
 这是该页面JSON形式的呈现：
 
@@ -1306,23 +1306,17 @@ report form的URI，服务用它来收集错误状态的数据。该URL会预先
 这是如何展现屏幕截图中的色块的例子（背景颜色对应下图中的颜色）
 
 - Results 11 - 20 of about 2,700,000 = startIndex
-
 - Results 11 - 20 of about 2,700,000 = startIndex + currentItemCount - 1
-
 - Results 11 - 20 of about 2,700,000 = totalItems
-
 - Search results = items (formatted appropriately)
-
 - Previous/Next = previousLink / nextLink
-
 - Numbered links in "Gooooooooooogle"
 
    = Derived from  "pageLinkTemplate". The developer is responsible for calculating the  values for {index} and substituting those values into the  "pageLinkTemplate". The pageLinkTemplate's {index} variable is  calculated as follows:
-
-  - Index #1 = 0 * itemsPerPage = 0
-  - Index #2 = 2 * itemsPerPage = 10
-  - Index #3 = 3 * itemsPerPage = 20
-  - Index #N = N * itemsPerPage
+  - Index #1 = 0 \* itemsPerPage = 0
+  - Index #2 = 2 \* itemsPerPage = 10
+  - Index #3 = 3 \* itemsPerPage = 20
+  - Index #N = N \* itemsPerPage
 
 ## 附录
 

@@ -55,43 +55,6 @@
       "fileScheme": "red"
     },
     {
-      "fileName": "CI CD 工具",
-      "filePath": "/CI CD 工具.md",
-      "fileType": "markdown",
-      "fileSuffix": "md",
-      "lastModifyTime": "2026-05-13 15:54:08"
-    },
-    {
-      "fileName": "JSON代码风格指南",
-      "fileType": "markdown",
-      "filePath": "/JSON代码风格指南.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2026-05-07 18:55:07",
-      "createTime": "2025-09-14 13:59:00"
-    },
-    {
-      "fileName": "YAML代码风格指南",
-      "fileType": "markdown",
-      "filePath": "/YAML代码风格指南.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2026-05-07 18:55:09",
-      "createTime": "2025-09-14 13:59:00"
-    },
-    {
-      "fileName": "互联网术语 ",
-      "fileType": "markdown",
-      "filePath": "/互联网术语 .md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2026-05-07 19:30:22",
-      "createTime": "2025-09-14 13:59:00"
-    },
-    {
       "fileName": "实战笔记",
       "fileType": "folder",
       "filePath": "/实战笔记",
@@ -221,7 +184,7 @@
           "fileSuffix": "md",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2026-04-28 14:38:59",
+          "lastModifyTime": 1791532624693,
           "createTime": "2025-09-14 13:59:00"
         },
         {
@@ -231,7 +194,7 @@
           "fileSuffix": "md",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2025-09-14 13:59:00",
+          "lastModifyTime": 1791532625275,
           "createTime": "2025-09-14 13:59:00"
         },
         {
@@ -241,7 +204,7 @@
           "fileSuffix": "md",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2025-09-14 13:59:00",
+          "lastModifyTime": 1791532627050,
           "createTime": "2025-09-14 13:59:00"
         },
         {
@@ -251,20 +214,11 @@
           "fileSuffix": "md",
           "fileSize": 2014,
           "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2025-09-14 13:59:00",
+          "lastModifyTime": 1791532628108,
           "createTime": "2025-09-14 13:59:00"
         }
-      ]
-    },
-    {
-      "fileName": "清单 - 前端工程师的自我修养",
-      "fileType": "markdown",
-      "filePath": "/清单 - 前端工程师的自我修养.md",
-      "fileSuffix": "md",
-      "fileSize": 2014,
-      "fileSizeReadable": "1.9k",
-      "lastModifyTime": "2026-05-07 19:13:11",
-      "createTime": "2025-09-14 13:59:00"
+      ],
+      "isFolderOpen": false
     },
     {
       "fileName": "翻译",
@@ -276,6 +230,38 @@
       "lastModifyTime": "2025-09-14 13:59:00",
       "createTime": "2025-09-14 13:59:00",
       "children": [
+        {
+          "fileName": "INFP",
+          "fileType": "folder",
+          "filePath": "/翻译/INFP",
+          "fileSuffix": "",
+          "fileSize": 2014,
+          "fileSizeReadable": "1.9k",
+          "lastModifyTime": "2025-09-14 13:59:00",
+          "createTime": "2025-09-14 13:59:00",
+          "children": [
+            {
+              "fileName": "INFP-调停者 - 原文",
+              "fileType": "markdown",
+              "filePath": "/翻译/INFP/INFP-调停者 - 原文.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": "2025-09-14 13:59:00",
+              "createTime": "2025-09-14 13:59:00"
+            },
+            {
+              "fileName": "INFP-调停者",
+              "fileType": "markdown",
+              "filePath": "/翻译/INFP/INFP-调停者.md",
+              "fileSuffix": "md",
+              "fileSize": 2014,
+              "fileSizeReadable": "1.9k",
+              "lastModifyTime": "2025-09-14 13:59:00",
+              "createTime": "2025-09-14 13:59:00"
+            }
+          ]
+        },
         {
           "fileName": "1-客户想要的不是她们所说的 - 原文",
           "fileType": "markdown",
@@ -335,40 +321,56 @@
           "fileSizeReadable": "1.9k",
           "lastModifyTime": "2025-09-14 13:59:00",
           "createTime": "2025-09-14 13:59:00"
-        },
-        {
-          "fileName": "INFP",
-          "fileType": "folder",
-          "filePath": "/翻译/INFP",
-          "fileSuffix": "",
-          "fileSize": 2014,
-          "fileSizeReadable": "1.9k",
-          "lastModifyTime": "2025-09-14 13:59:00",
-          "createTime": "2025-09-14 13:59:00",
-          "children": [
-            {
-              "fileName": "INFP-调停者 - 原文",
-              "fileType": "markdown",
-              "filePath": "/翻译/INFP/INFP-调停者 - 原文.md",
-              "fileSuffix": "md",
-              "fileSize": 2014,
-              "fileSizeReadable": "1.9k",
-              "lastModifyTime": "2025-09-14 13:59:00",
-              "createTime": "2025-09-14 13:59:00"
-            },
-            {
-              "fileName": "INFP-调停者",
-              "fileType": "markdown",
-              "filePath": "/翻译/INFP/INFP-调停者.md",
-              "fileSuffix": "md",
-              "fileSize": 2014,
-              "fileSizeReadable": "1.9k",
-              "lastModifyTime": "2025-09-14 13:59:00",
-              "createTime": "2025-09-14 13:59:00"
-            }
-          ]
         }
-      ]
+      ],
+      "isFolderOpen": false
+    },
+    {
+      "fileName": "JSON代码风格指南",
+      "fileType": "markdown",
+      "filePath": "/JSON代码风格指南.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1794800871835,
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "YAML代码风格指南",
+      "fileType": "markdown",
+      "filePath": "/YAML代码风格指南.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1794800873982,
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "CI CD 工具",
+      "filePath": "/CI CD 工具.md",
+      "fileType": "markdown",
+      "fileSuffix": "md",
+      "lastModifyTime": 1794800874631
+    },
+    {
+      "fileName": "互联网术语 ",
+      "fileType": "markdown",
+      "filePath": "/互联网术语 .md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1794800875415,
+      "createTime": "2025-09-14 13:59:00"
+    },
+    {
+      "fileName": "清单 - 前端工程师的自我修养",
+      "fileType": "markdown",
+      "filePath": "/清单 - 前端工程师的自我修养.md",
+      "fileSuffix": "md",
+      "fileSize": 2014,
+      "fileSizeReadable": "1.9k",
+      "lastModifyTime": 1794800876149,
+      "createTime": "2025-09-14 13:59:00"
     },
     {
       "fileName": "LICENSE",
@@ -378,7 +380,8 @@
       "fileSize": 2014,
       "fileSizeReadable": "1.9k",
       "lastModifyTime": "2025-09-14 13:59:00",
-      "createTime": "2025-09-14 13:59:00"
+      "createTime": "2025-09-14 13:59:00",
+      "isFolderOpen": false
     }
   ],
   "fileType": "config",
